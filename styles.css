@@ -3,8 +3,35 @@
   --green: green;
   --red: rgb(255, 51, 0);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+ul.nav {
+    list-style: none;
+    padding: 0;
+}
+ul.nav li {
+    text-align: center;
+}
+ul.nav li a {
+    color: black;
+    line-height: 2;
+    text-decoration: none;
+}
+
 .white-text {
   color: white
+}
+.orange-text {
+  color: var(--orange);
 }
 .green-text {
   color: var(--green)
@@ -12,68 +39,220 @@
 .red-text {
   color: var(--red)
 }
+.orange-border {
+  border-color: var(--orange)
+}
+.green-border {
+  border-color: var(--green)
+}
+.red-border {
+  border-color: var(--red)
+}
 
 .container {
   max-width: 1280px;
   margin: 0 auto;
 }
 
-.top-bar {}
-.logo {}
-.main-nav {}
+/* .top-bar {} */
+.logo {
+    width: 150px;
+    margin: 0 auto;
+}
 
-.hero-banner {}
-h1 {}
+/* HERO */
+.hero-banner {
+  min-height: 300px;
+  padding: 20px;
+  background-image: url(images/hero-temp.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 1.4;
+  color: #fff;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.37);
+}
 
-.projetos {}
+/* DESTAQUES */
+.destaques {
+  margin: 40px 0;
+}
+.hilite-item {
+  margin: 20px 0;
+}
+.hilite-image {
+  width: 162px;
+  height: 162px;
+  margin: 0 auto;
+}
+.round-image {
+  background: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  overflow: hidden;
+}
+h3 {
+  margin: 24px 0 10px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+.hilite-text {
+  width: 248px;
+  height: 48px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  color: #919191;
+}
 
-h2 {}
-.row {}
-.col-md-4 {}
-
-.card {}
-.card-image {}
-.content {}
-.card-title {}
-.card-text {}
-
+/* TURMAS */
 .turmas {
+  padding: 40px 0;
   background-color: var(--orange);
 }
-.classes-item {}
-.classes-item_image {}
-.classes-item_text {}
+.classes-item {
+  margin: 20px auto 20px;
+}
+.classes-item_image {
+  width: 310px;
+  height: 310px;
+  margin: 0 auto;
+  border-radius: 32px;
+  background: #fff;
+  overflow: hidden;
+}
+.classes-item_text {
+  font-size: 16px;
+  text-align: center;
+  color: #4a4a4a;
+}
 
-.destaques {}
-.hilite-item {}
-.round-image {}
-h3 {}
-.hilite-text {}
+/* PROJETOS */
+.projetos {
+  padding: 40px 0;
+}
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+.card {
+  margin: 20px 0 20px;
+}
+.card-img-top {
+  width: 310px;
+  height: 220px;
+  background: #d9d9d9;  
+}
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: left;
+  color: #000;
+}
+.card-text {
+  width: 299px;
+  height: 73px;
+  font-size: 16px;
+  text-align: left;
+  color: #525252;
+}
 
+/* GALERIA */
 .galeria {
+  padding: 40px 0;
   background-color: var(--green);
 }
 
-.depoimentos {}
-.testimonials-slide {}
-.arrow-back {}
-.testimonials-container {}
-.testimonials-item {}
-.arrow-next {}
+/* DEPOIMENTOS */
+.depoimentos {
+  padding: 40px 0;
+}
+.testimonials-slide {
+  position: relative;
+}
+.arrow-back {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+.testimonials-item  {
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonials-item h3 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #2c2c2c;
+}
+.testimonial-image {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+}
+.arrow-next {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  text-align: right;
+}
 
+/* CONTATO */
 .contato {
+  padding: 40px 0;
   background-color: var(--red);
 }
 input, textarea {
   display: block;
   margin-bottom: 10px;
 }
-.text-input {}
-textarea {}
-.submit-btn {}
+.text-input, textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+}
+.submit-btn {
+  min-width: 100px;
+}
 
-.main-footer {}
-.bottom-logo {}
-.bottom-nav {}
+/* FOOTER */
+.main-footer {
+  padding: 40px 0;
+}
+.bottom-logo {
+  width: 240px;
+  margin: 0 auto;
+}
+.address {
+  display: inline-block;
+  vertical-align: text-top;
+}
+.main-footer svg {
+  margin-right: 10px;
+}
+.company-info {
+  padding: 20px;
+}
+.company-info > div {
+  margin-bottom: 16px;
+}
+.bottom-nav {
+  display: none;
+}
 .address {}
 .copy {}
