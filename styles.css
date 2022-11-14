@@ -1,0 +1,79 @@
+:root {
+  --orange: orange;
+  --green: green;
+  --red: rgb(255, 51, 0);
+}
+.white-text {
+  color: white
+}
+.green-text {
+  color: var(--green)
+}
+.red-text {
+  color: var(--red)
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.top-bar {}
+.logo {}
+.main-nav {}
+
+.hero-banner {}
+h1 {}
+
+.projetos {}
+
+h2 {}
+.row {}
+.col-md-4 {}
+
+.card {}
+.card-image {}
+.content {}
+.card-title {}
+.card-text {}
+
+.turmas {
+  background-color: var(--orange);
+}
+.classes-item {}
+.classes-item_image {}
+.classes-item_text {}
+
+.destaques {}
+.hilite-item {}
+.round-image {}
+h3 {}
+.hilite-text {}
+
+.galeria {
+  background-color: var(--green);
+}
+
+.depoimentos {}
+.testimonials-slide {}
+.arrow-back {}
+.testimonials-container {}
+.testimonials-item {}
+.arrow-next {}
+
+.contato {
+  background-color: var(--red);
+}
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+.text-input {}
+textarea {}
+.submit-btn {}
+
+.main-footer {}
+.bottom-logo {}
+.bottom-nav {}
+.address {}
+.copy {}
