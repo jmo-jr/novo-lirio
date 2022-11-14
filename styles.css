@@ -49,10 +49,10 @@ ul.nav li a {
   border-color: var(--red)
 }
 
-.container {
+/* .container {
   max-width: 1280px;
   margin: 0 auto;
-}
+} */
 
 /* .top-bar {} */
 .logo {
@@ -255,3 +255,38 @@ input, textarea {
 }
 .address {}
 .copy {}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 110px;
+    margin: 0;
+}
+
+ul.nav li {
+    text-align: left;
+    margin-left: 32px;
+}
+
+ul.nav {
+    align-self: center;
+}
+
+.navbar {
+    padding-top: 30px;
+}
+
+.top-bar {
+    padding: 16px;
+}
+
+.hero-banner {
+    height: calc(100vh - 132px);
+}
+
+h1 {
+    font-size: 36px;
+    width: 400px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+}
