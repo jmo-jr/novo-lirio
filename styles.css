@@ -260,8 +260,10 @@ input, textarea {
 .bottom-nav {
   display: none;
 }
-.address {}
-.copy {}
+.copy {
+  text-align: center;
+  font-size: 12px;
+}
 
 /* LAP/DESKTOP */
 
@@ -281,12 +283,21 @@ input, textarea {
   }
 
   .navbar {
+    justify-content: flex-end;
     padding-top: 24px;
   }
 
+  .container-fluid {
+    width: unset;
+    margin: 0;
+  }
+
   .top-bar {
+    position: sticky;
+    top: 0;
     padding: 16px;
-    background-color: #f7f7f7;
+    background-color: white;
+    z-index: 1000;
   }
 
   .slide-imgs {
