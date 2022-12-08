@@ -143,18 +143,21 @@ h3 {
   margin: 20px auto 20px;
 }
 .classes-item_image {
-  width: 510px;
-  height: 290px;
+  width: 100%;
+  height: 192px;
   margin: 0 auto;
   border: solid 4px white;
   border-radius: 16px;
   overflow: hidden;
 }
-.classes-item_image.infantil { background-image: url(images/infantil.jpeg); }
 .classes-item_text {
   font-size: 16px;
   text-align: center;
   color: #4a4a4a;
+}
+.video-frame {
+  width: 100%;
+  height: 186px;
 }
 
 /* PROJETOS */
@@ -195,7 +198,7 @@ h2 {
   background-color: var(--green);
 }
 .woxo-container {
-  max-height: 1120px;
+  max-height: 450px;
   overflow: hidden;
 }
 
@@ -243,8 +246,8 @@ h2 {
   background-color: var(--red);
 }
 .form-container {
-  max-width: 600px;
-  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 input, textarea {
   display: block;
@@ -277,7 +280,7 @@ input, textarea {
   margin-right: 10px;
 }
 .company-info {
-  padding: 20px;
+  padding: 20px 40px;
 }
 .company-info > div {
   margin-bottom: 16px;
@@ -297,30 +300,35 @@ DESKTOP
 ************/
 
 @media screen and (min-width: 1024px) {
+  
+  .hero-section {
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 36px;
+    width: 400px;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
   .logo {
     width: 80px;
     margin: 0;
   }
-
   ul.nav li {
     text-align: left;
     margin-left: 32px;
   }
-
   ul.nav {
     align-self: center;
   }
-
   .navbar {
     justify-content: flex-end;
     padding-top: 20px;
   }
-
   .container-fluid {
     width: unset;
     margin: 0;
   }
-
   .top-bar {
     position: sticky;
     top: 0;
@@ -329,28 +337,29 @@ DESKTOP
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.37);
     z-index: 1000;
   }
-
+  .classes-item_image {
+    width: 510px;
+    height: 290px;
+  }
+  .video-frame {
+    width: 560px; 
+    height: 315px
+  }
   .slide-imgs {
     position: relative;
   }
-
+  .woxo-container {
+    max-height: 1120px;
+  }
   .slide-imgs img {
     position: absolute;
     top: 0;
     left: 0;
   }
-
-  .hero-section {
-    overflow: hidden;
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
   }
-
-  h1 {
-    font-size: 36px;
-    width: 400px;
-    padding-left: 40px;
-    padding-top: 40px;
-  }
-
   .footer-container {
     width: 60%;
     margin: 0 auto;

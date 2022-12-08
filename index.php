@@ -68,7 +68,7 @@
         <div class="col-sm-12 col-md-6">
           <div class="classes-item">
             <div class="classes-item_image infantil">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/NjcxG7dpmsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video-frame" src="https://www.youtube.com/embed/NjcxG7dpmsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <h3>Educação infantil</h3>
             <div class="classes-item_text">
@@ -80,7 +80,7 @@
         <div class="col-sm-12 col-md-6">
           <div class="classes-item">
             <div class="classes-item_image">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/WkxyfO0lxiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video-frame" src="https://www.youtube.com/embed/WkxyfO0lxiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <h3>Ensino fundamental</h3>
             <div class="classes-item_text">
