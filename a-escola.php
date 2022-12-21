@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-  <section class="projetos">
+  <section class="page">
     <div class="container">
       <h2>A Escola</h2>
       <div class="content">
