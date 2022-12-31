@@ -67,6 +67,12 @@ cite {
   margin-bottom: 1rem
 }
 
+#carouselProject1 .carousel-inner,
+#carouselProject2 .carousel-inner,
+#carouselProject3 .carousel-inner {
+  height: 195px;
+}
+
 /* TOP BAR */
 .logo {
   width: 90px;
@@ -285,7 +291,7 @@ input, textarea {
   margin: 0 auto;
 }
 .address {
-  display: inline-block;
+  display: inline;
   vertical-align: text-top;
 }
 .main-footer svg {
