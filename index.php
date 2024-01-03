@@ -67,7 +67,7 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="7000">
-          <img id="sl1" src="images/hero-slide-2.jpeg" alt="">
+          <img id="sl1" src="images/banner2024.jpeg" alt="">
         </div>
         <div class="carousel-item" data-bs-interval="7000">
           <img id="sl1" src="images/hero-slide-1.jpeg" alt="">
